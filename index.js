@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 import Student from './models/student.js'
 
 
-const mongoDBURI = "mongodb+srv://malsha:mali890@cluster0.sesd40b.mongodb.net/?appName=Cluster0"
+const mongoDBURI = ""
 
 mongoose.connect(mongoDBURI).then(
     ()=>{
